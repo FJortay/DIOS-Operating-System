@@ -1,5 +1,5 @@
 # DIOS
-Intelligent operating system for wireless P2P network
+Intelligent operating system for wireless P2P WAN
 
 ## Summary  
 

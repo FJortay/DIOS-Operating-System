@@ -1,5 +1,5 @@
 # DIOS
-Decentralized &amp; intelligent operating system
+Intelligent operating system for wireless P2P network
 
 ## Summary  
 

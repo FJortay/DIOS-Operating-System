@@ -5,6 +5,7 @@ Design of an Intelligent Operating System for a Wireless Decentralized WAN
 - [Summary](#summary)
 - [Operating Principles](#operating-principles)
 - [Key Software Modules](#key-software-modules)
+- [Resources](#resources)
 - [How To Participate](#how-to-participate)
 - [Conclusion](#conclusion)
 
@@ -21,7 +22,7 @@ DIOS is envisioned as an intelligent operating system, with software suite, desi
 - Collective AI, which distributes data storage and computational load across the network ;
 - Additional services as needed.
 
-The system is modular to allow for technological evolution and is composed entirely of free/open source software (as defined by [fsf.org](https://fsf.org)). Each organization member is assumed to use three [free devices](https://www.gnu.org/philosophy/free-hardware-designs.html) : a desktop computer  ; an IPV card (a not yet existing bank card-like device with a touchscreen and virtual keyboard, dedicated to identification, payments, and voting) ; a [basic mobile phone](https://www.google.com/search?q=dumbphone&tbm=shop) (smartphones are intentionally excluded for health and security reasons : [learn more](https://jortay.net/theorie-liberation#neutraliser-addiction-ecrans)).
+The system is modular to allow for technological evolution and is composed entirely of free/open source software (as defined by [fsf.org](https://fsf.org)). Each organization member is assumed to use three [free devices](https://www.gnu.org/philosophy/free-hardware-designs.html) : a desktop computer  ; an IPV card (a not yet existing bank card-like device with a touchscreen and virtual keyboard, dedicated to identification, payments, and voting) ; a [basic mobile phone](https://www.google.com/search?q=dumbphone&tbm=shop) (smartphones are intentionally excluded, for health and security reasons : [learn more](https://jortay.net/theorie-liberation#neutraliser-addiction-ecrans)).
 
 
 *This is a "Building AI course project".*
@@ -113,8 +114,21 @@ The system is modular to allow for technological evolution and is composed entir
 
 ---
 
+## **Resources**
+- Theory
+   - [wikipedia.org/Wireless_ad_hoc_network](https://en.wikipedia.org/wiki/Wireless_ad_hoc_network)
+- Free software
+   - [wikipedia.org/GNUnet](https://en.wikipedia.org/wiki/GNUnet)
+   - [directory.fsf.org](https://directory.fsf.org)
+
+- Free hardware  
+   - [ryf.fsf.org](https://ryf.fsf.org)
+   - [h-node.org](https://h-node.org)
+       
+---
+
 ## **How to participate**
-Help improve this README. Once we agree on the elicitation plan, the *"Key Software Modules"* section will be split into several sub-projects.
+Help improve this README. Once we agree on an elicitation plan, the *"Key Software Modules"* section will be split into several sub-projects.
 
 ---
 

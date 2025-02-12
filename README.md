@@ -25,7 +25,7 @@ DIOS is envisioned as an intelligent operating system, with software suite, desi
 The system is modular to allow for technological evolution and is composed entirely of free/open source software (as defined by [fsf.org](https://fsf.org)). Each organization member is assumed to use three [free devices](https://www.gnu.org/philosophy/free-hardware-designs.html) : a desktop computer  ; an IPV card (a not yet existing bank card-like device with a touchscreen and virtual keyboard, dedicated to identification, payments, and voting) ; a [basic mobile phone](https://www.google.com/search?q=dumbphone&tbm=shop) (smartphones are intentionally excluded, for health and security reasons : [learn more](https://jortay.net/theorie-liberation#neutraliser-addiction-ecrans)).
 
 
-*This is a "Building AI course project".*
+*This is a "[Building AI course project](https://buildingai.elementsofai.com/)".*
 
 ---
 

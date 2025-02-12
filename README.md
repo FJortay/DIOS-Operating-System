@@ -21,7 +21,7 @@ DIOS is envisioned as an intelligent operating system, with software suite, desi
 - Collective AI, which distributes data storage and computational load across the network ;
 - Additional services as needed.
 
-The system is modular to allow for technological evolution and is composed entirely of free/open source software (as defined by fsf.org). Each organization member is assumed to use three [free devices](https://www.gnu.org/philosophy/free-hardware-designs.html) : a desktop computer  ; an IPV card (a bank card–like device with a touchscreen and virtual keyboard) dedicated to identification, payments, and voting ; a basic mobile phone (smartphones are intentionally excluded for health and security reasons : [learn more](https://jortay.net/theorie-liberation#neutraliser-addiction-ecrans)).
+The system is modular to allow for technological evolution and is composed entirely of free/open source software (as defined by [fsf.org](https://fsf.org)). Each organization member is assumed to use three [free devices](https://www.gnu.org/philosophy/free-hardware-designs.html) : a desktop computer  ; an IPV card (a not yet existing bank card-like device with a touchscreen and virtual keyboard, dedicated to identification, payments, and voting) ; a [basic mobile phone](https://www.google.com/search?q=dumbphone&tbm=shop) (smartphones are intentionally excluded for health and security reasons : [learn more](https://jortay.net/theorie-liberation#neutraliser-addiction-ecrans)).
 
 
 *This is a "Building AI course project".*
@@ -114,12 +114,12 @@ The system is modular to allow for technological evolution and is composed entir
 ---
 
 ## **How to participate**
-Help improve *"Operating principle"* and *"Key software modules"* sections. Once we agree on this elicitation plan, we will split the *"Key Software Modules"* section into several sub-projects.
+Help improve this README. Once we agree on the elicitation plan, the *"Key Software Modules"* section will be split into several sub-projects.
 
 ---
 
 ## **Conclusion**
 
-DIOS is a project for an innovative, decentralized operating system for wireless WANs that supports collaborative governance, secure communications, and collective intelligence. By leveraging a modular architecture and integrating robust open source solutions—ranging from decentralized DNS and distributed storage to federated AI and secure identity management—DIOS could offer a scalable and flexible platform for organizations of all sizes. Its commitment to free software and modular design ensures that DIOS will evolve with technological advancements, maintaining transparency, security, and efficiency in a participatory and decentralized digital infrastructure.
+DIOS is a R&D project for an innovative, decentralized operating system for wireless WANs that supports collaborative governance, secure communications, and collective intelligence. By leveraging a modular architecture and integrating robust open source solutions—ranging from decentralized DNS and distributed storage to federated AI and secure identity management—DIOS could offer a scalable and flexible platform for organizations of all sizes. Its commitment to free software and modular design ensures that DIOS will evolve with technological advancements, maintaining transparency, security, and efficiency in a participatory and decentralized digital infrastructure.
 
 In other words, DIOS is an infrastructure for collective intelligence and direct democracy.

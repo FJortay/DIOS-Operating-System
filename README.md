@@ -124,7 +124,8 @@ DIOS is envisioned as an intelligent operating system, with software suite, desi
    - [wikipedia.org/GNUnet](https://en.wikipedia.org/wiki/GNUnet)
    - [directory.fsf.org](https://directory.fsf.org)
 
-- Free hardware  
+- Free hardware
+   - [freedombox.org](https://freedombox.org)
    - [ryf.fsf.org](https://ryf.fsf.org)
    - [h-node.org](https://h-node.org)
        
@@ -139,4 +140,4 @@ Help improve this README. Once we agree on an elicitation plan, the *"Key Softwa
 
 DIOS is a R&D project for an innovative, decentralized operating system for wireless WANs that supports collaborative governance, secure communications, and collective intelligence. By leveraging a modular architecture and integrating robust open source solutions—ranging from decentralized DNS and distributed storage to federated AI and secure identity management—DIOS could offer a scalable and flexible platform for organizations of all sizes. Its commitment to free software and modular design ensures that DIOS will evolve with technological advancements, maintaining transparency, security, and efficiency in a participatory and decentralized digital infrastructure.
 
-In other words, DIOS is an infrastructure for collective intelligence and direct democracy.
+In other words, DIOS is an infrastructure for collective intelligence and direct democracy (see [github.com/FJortay/DICS](https://github.com/FJortay/DICS/)).

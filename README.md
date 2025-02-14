@@ -13,7 +13,7 @@ Design of an Intelligent Operating System for a Wireless Decentralized WAN
 
 ## Summary  
 
-DIOS is envisioned as an intelligent operating system, with software suite, designed for a wireless, decentralized WAN. DIOS is intended for organizations of all sizes — from local associations to states — operating under a co-governance model (direct democracy). Each DIOS node represents an individual member (a "citizen node") and includes all the server and client software required for:
+DIOS is envisioned as an intelligent operating system, with software suite, designed for a wireless, decentralized (P2P) WAN. DIOS is intended for organizations of all sizes — from local associations to states — operating under a co-governance model (direct democracy). Each DIOS node represents an individual member (a "citizen node") and includes all the server and client software required for:
 
 - Hosting the member’s website ;
 - Email, messaging, and videoconferencing services ;
@@ -23,7 +23,7 @@ DIOS is envisioned as an intelligent operating system, with software suite, desi
 - Additional services as needed.
 
 ***Software and hardware context :*** 
-- *Software* : the system should be modular (in order to allow for technological evolution) and composed entirely of free/open source software (as defined by [fsf.org](https://fsf.org)). Integration of existing modules should be preferred to the development of new solutions.
+- *Software* : the system should be modular (in order to allow for technological evolution) and composed entirely of free/open source software (as defined by [fsf.org](https://fsf.org)). Integration of existing solutions should be preferred to the development of new modules.
   
 - *Hardware* : each organization member is assumed to use these two [free devices](https://www.gnu.org/philosophy/free-hardware-designs.html) : a desktop computer and an IPV card (a not yet existing smart card-like device with touchscreen and virtual keyboard, dedicated to identification, payments, and voting). The system should not rely on any use of the smartphone (for reasons of mental health and computer security).
 

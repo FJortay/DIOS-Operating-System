@@ -1,12 +1,12 @@
 # DIOS
 Design of an Intelligent Operating System for a Wireless Decentralized WAN
 
-- [1. Summary](summary)
-- [2. Operating Principles](operating-principles)
-- [3. Key Software Modules](key-software-modules)
-- [4. Resources](resources)
-- [5. How To Participate](how-to-participate)
-- [6. Conclusion](conclusion)
+- [1. Summary](#1-summary)
+- [2. Operating Principles](#2-operating-principles)
+- [3. Key Software Modules](3-key-software-modules)
+- [4. Resources](#4-resources)
+- [5. How To Participate](#5-how-to-participate)
+- [6. Conclusion](#6-conclusion)
 
 ---
 

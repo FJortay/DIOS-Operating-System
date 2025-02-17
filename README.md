@@ -162,4 +162,4 @@ Help improve this first draft README. Once we agree on an elicitation plan, the 
 
 ## **6. Conclusion**
 
-What once seemed unfeasible—building a comprehensive decentralized infrastructure like the [DICS](https://github.com/FJortay/DICS)/DIOS system—is now within reach. Advances in conversational AI empower us to design and implement collective intelligence systems with capabilities that were unimaginable just a few years ago. While the challenges remain significant, the potential benefits and insights from this research promise to be equally abundant and transformative.
+What once seemed unfeasible—building a comprehensive decentralized infrastructure like the *"[DICS](https://github.com/FJortay/DICS) on DIOS system"*—is now within reach. Advances in conversational AI empower us to design and implement collective intelligence systems with capabilities that were unimaginable just a few years ago. While the challenges remain significant, the potential benefits and insights from this research promise to be equally abundant and transformative.

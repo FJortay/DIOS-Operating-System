@@ -1,4 +1,4 @@
-# DIOS
+# DIOS  
 Design of an Intelligent Operating System for a Wireless Decentralized WAN
 
 - [1. Summary](#1-summary)
@@ -12,28 +12,31 @@ Design of an Intelligent Operating System for a Wireless Decentralized WAN
 
 ### 1. Summary  
 
-DIOS is envisioned as an intelligent operating system, with software suite, designed for a wireless, decentralized (P2P) WAN. DIOS is intended to be the infrastructure of [DICS](https://github.com/FJortay/DICS), an intelligent and decentralised co-management web platform for organizations of all sizes (local associations, companies, municipalities, State) willing to operate under the rules of direct democracy. Each DIOS node represents an individual member (a "citizen node") and includes all the server and client software required for:
+DIOS is envisioned as an innovative operating system coupled with an integrated software suite designed for a wireless, decentralized (P2P) WAN. It serves as the backbone for [DICS](https://github.com/FJortay/DICS)—an intelligent, decentralized co-management platform for organizations ranging from local associations to state institutions that operate under the principles of direct democracy. Each DIOS node represents an individual member—a “citizen node”—and bundles all the necessary server and client software for:
 
-   - *Individual activities* :
-      - *Front-end* :
-         - hosting the member’s ***website***;
-         - ***email*** and videoconferencing services;
-         - a ***commercial platform*** (disabled by default) : intended for individuals willing to manage a micro-enterprise ; composed of "Sales", "Accounting" and "Social Secretariat" modules, all linked to the public service database (taxation, social security,...).
-      - *Back-end* : ***decentralized*** DNS, Identification and authentication.
-     
-   - *Collective activities* :
-      - *Front-end* : [DICS](https://github.com/FJortay/DICS/)  co-management system;
-      - *Back-end* : collective AI, with distributed data storage and computational load across the network.
+- *Individual activities*:
+  - *Front-end*:
+    - Hosting the member’s ***website***;
+    - Providing ***email*** and videoconferencing services;
+    - Offering a ***commercial platform*** (disabled by default) for micro-enterprise management, which includes "Sales", "Accounting", and "Social Secretariat" modules linked to public service databases (taxation, social security, etc.).
+  - *Back-end*:
+    - Delivering decentralized DNS, identification, and authentication services.
 
+- *Collective activities*:
+  - *Front-end*:
+    - Running the [DICS](https://github.com/FJortay/DICS/) co-management system.
+  - *Back-end*:
+    - Coordinating a collective AI that distributes data storage and computational load across the network.
 
-***Software and hardware context :*** 
-- *Software.* The system should be ***decentralized*** (therefore both client and server), ***modular*** (in order to facilitate technological evolution) and exclusively composed of ***free software*** (as defined by [fsf.org](https://fsf.org)). 
-  
-- *Hardware* : each organization member is assumed to use two kinds of [free devices](https://www.gnu.org/philosophy/free-hardware-designs.html) : a desktop computer and an IPV card (a not yet existing smart card-like device with touchscreen and virtual keyboard, dedicated to identification, payments, and voting). The system should not rely on any use of smartphone (for reasons of mental health and computer security).
+***Software and hardware context:***  
+- *Software.* DIOS is built to be ***decentralized*** (both client and server), ***modular*** (to ease technological evolution), and entirely composed of ***free software*** (as defined by [fsf.org](https://fsf.org)). 
 
->***HI + AI = CI.*** Nodes are the network. They are the agents of plasticity (learning) and emergence (nodes interactions and diversity). Humans may provide creativity, ethical judgment, or complex decision-making, while AI offers speed, pattern recognition, and data processing. The emergent collective intelligence is the product of this collaboration.
+- *Hardware.* Each organization member is expected to use two types of [free devices](https://www.gnu.org/philosophy/free-hardware-designs.html): a desktop computer and an IPV card (a yet-to-be-developed smart card-like device with a touchscreen and virtual keyboard, dedicated to identification, payments, and voting). Notably, the system avoids reliance on smartphones (due to concerns over mental health and computer security).
 
-In sections 3, an open source solution is mentioned for each point. However, these software were not designed and developed in the current new era of conversational AI. As a result, much of DIOS may need to be built from scratch.  Nevertheless, assessing what is presently available may be a good choice for a first step. And the second one may even consist in integrating them... 
+>***HI + AI = CI.***  
+>Nodes form the network and act as agents of both plasticity (learning) and emergence (through diverse interactions). While humans contribute creativity, ethical judgment, and nuanced decision-making, AI brings speed, pattern recognition, and data processing. The emergent collective intelligence (CI) is the synergistic outcome of this collaboration.
+
+In Section 3, open source solutions are proposed for each component. However, many of these software packages were not originally developed with today’s conversational AI advances in mind. As such, significant parts of DIOS may need to be built from scratch—or integrated with existing tools as a first step.
 
 *This is a "[Building AI course project](https://buildingai.elementsofai.com/)".*
 
@@ -43,99 +46,120 @@ In sections 3, an open source solution is mentioned for each point. However, the
 
 #### 2.1. Decentralized, Self-Organizing Architecture
   
-   - ***No Central Authority :*** all services (DNS, authentication, AI, etc.) are distributed among the nodes.
-     
-   - ***Auto-Organization and Self-Healing :*** the network dynamically integrates new nodes, redistributes tasks, and handles failures without centralized control.
+- ***No Central Authority:*** All services (DNS, authentication, AI, etc.) are distributed among the nodes, ensuring that no single point of control exists.
+  
+- ***Auto-Organization and Self-Healing:*** The network dynamically incorporates new nodes, redistributes tasks, and manages failures autonomously, without centralized oversight.
 
-#### 2.2. Collective Intelligence and Load Distribution  
-   - ***Distributed AI :*** nodes collaborate to process data and perform computations (using techniques such as federated learning), ensuring efficient resource utilization and scalability.
-     
-   - ***Data Redundancy :*** information is stored in a distributed manner, enhancing resilience and ensuring continuous service even if individual nodes fail.
+#### 2.2. Collective Intelligence and Load Distribution
+  
+- ***Distributed AI:*** Nodes collaborate using federated learning and similar techniques to process data and perform computations, ensuring scalable and efficient resource utilization.
+  
+- ***Data Redundancy:*** Information is stored in a distributed fashion to enhance resilience, ensuring continuous service even if individual nodes go offline.
 
-#### 2.3. Adaptation to Wireless WAN Constraints  
-   - ***Dynamic Connectivity :*** the system manages multi-hop wireless communications and adapts to changing network conditions (node mobility, varying bandwidth, etc.).
-     
-   - ***Energy Efficiency :*** resource and power management is optimized to accommodate devices with limited power, ensuring sustained operation of low-power nodes.
+#### 2.3. Adaptation to Wireless WAN Constraints
+  
+- ***Dynamic Connectivity:*** The system is designed to manage multi-hop wireless communications and adapt to changing network conditions (e.g., node mobility, fluctuating bandwidth).
+  
+- ***Energy Efficiency:*** Optimized resource and power management allows operation on devices with limited power, ensuring sustained performance of low-power nodes.
 
-#### 2.4. Security, Identity, and Privacy  
-   - ***Robust Authentication :*** each node has a self-sovereign identity secured by cryptographic protocols.
-       
-   - ***End-to-End Security :*** all communications and transactions (including voting and payments) are encrypted and continuously monitored for threats.
+#### 2.4. Security, Identity, and Privacy
+  
+- ***Robust Authentication:*** Each node possesses a self-sovereign identity secured via cryptographic protocols.
+  
+- ***End-to-End Security:*** All communications and transactions (including voting and payments) are encrypted and continuously monitored for threats.
 
 #### 2.5. Modularity and Open Source Evolution
-
-   - ***Modular Design :*** the system is divided into independent, interoperable modules that can be updated or replaced as technology advances.
-      
-   - ***Free Software Commitment :*** all modules are developed and maintained as free/open source software, ensuring transparency, collaboration, and flexibility.
+  
+- ***Modular Design:*** The system is architected as independent, interoperable modules that can be updated or replaced as technology evolves.
+  
+- ***Free Software Commitment:*** Every module is developed and maintained as free/open source software, promoting transparency, collaboration, and adaptability.
 
 ---
 
 ### **3. Key Software Modules**
 
 #### 3.1. Wireless Network Management and WAN Connectivity
-- *Proposed Solutions :*  
-  - ***[BATMAN-adv](https://www.open-mesh.org/projects/open-mesh/wiki) :*** an open source mesh routing protocol that enables robust multi-hop wireless communication in dynamic environments.
-- *Additional Option :*  
-  - ***[OpenWrt](https://openwrt.org/) :*** a Linux-based firmware for routers that optimizes wireless connectivity and manages network traffic on dedicated hardware.
+
+- *Proposed Solutions:*  
+  - ***[BATMAN-adv](https://www.open-mesh.org/projects/open-mesh/wiki):*** An open source mesh routing protocol enabling robust multi-hop wireless communication in dynamic environments.
+   
+- *Additional Option:*  
+  - ***[OpenWrt](https://openwrt.org/):*** A Linux-based router firmware that optimizes wireless connectivity and manages network traffic on dedicated hardware.
 
 #### 3.2. Decentralized DNS and Distributed Storage
-- *Proposed Solution :*  
-  - ***[IPFS/IPNS](https://ipfs.tech/) :*** IPFS provides a distributed file system for data storage, while IPNS offers decentralized name resolution—together forming the backbone of a decentralized DNS.
-- *Alternative :*  
-  - ***[Namecoin](https://www.namecoin.org/) :*** an open source blockchain-based solution for managing DNS records in a decentralized manner.
+
+- *Proposed Solution:*  
+  - ***[IPFS/IPNS](https://ipfs.tech/):*** IPFS offers a distributed file system for data storage, while IPNS provides decentralized name resolution—together forming the backbone of a decentralized DNS.
+    
+- *Alternative:*  
+  - ***[Namecoin](https://www.namecoin.org/):*** A blockchain-based open source solution for managing DNS records in a decentralized manner.
 
 #### 3.3. Collective Intelligence (AI) and Load Distribution
-- *Proposed Solution :*  
-  - ***[TensorFlow Federated](https://www.tensorflow.org/federated) :*** an open source framework for federated learning that enables decentralized training of AI models across multiple nodes.
-- *Alternative :*  
-  - ***[PySyft](https://github.com/OpenMined/PySyft) :*** a library for secure and privacy-preserving decentralized machine learning, which supports distributed AI computation across nodes.
+
+- *Proposed Solution:*  
+  - ***[TensorFlow Federated](https://www.tensorflow.org/federated):*** An open source framework for federated learning that supports decentralized training of AI models across nodes.
+    
+- *Alternative:*  
+  - ***[PySyft](https://github.com/OpenMined/PySyft):*** A library for secure, privacy-preserving decentralized machine learning, facilitating distributed AI computation across nodes.
 
 #### 3.4. Identification and Authentication
-- *Proposed Solution :*  
-  - ***[FreeIPA](https://www.freeipa.org/) / [OpenLDAP](https://www.openldap.org/) :*** open source identity management and authentication systems that can be configured for decentralized replication across nodes.
+- *Proposed Solution:*  
+  - ***[FreeIPA](https://www.freeipa.org/) / [OpenLDAP](https://www.openldap.org/):*** Open source identity management and authentication systems that can be configured for decentralized replication across nodes.
 
 #### 3.5. Security and Cryptography
-- *Secure Communication :*  
-  - ***[WireGuard](https://www.wireguard.com/) :*** a modern open source VPN that provides efficient, secure, and encrypted communication between nodes.
-- *Additional Tools :*  
-  - ***[OpenSSL](https://www.openssl.org/)*** and ***[GnuPG](https://gnupg.org/) :*** these tools provide cryptographic libraries and utilities for securing data exchanges, managing keys, and ensuring data integrity.
-- *Intrusion Detection :*  
-  - ***[OSSEC](https://www.ossec.net/) :*** an open source intrusion detection system (IDS) that monitors system and network activity to detect and respond to potential threats.
+
+- *Secure Communication:*  
+  - ***[WireGuard](https://www.wireguard.com/):*** A modern open source VPN providing efficient, secure, and encrypted communication between nodes.
+   
+- *Additional Tools:*  
+  - ***[OpenSSL](https://www.openssl.org/)*** and ***[GnuPG](https://gnupg.org/):*** These libraries and utilities secure data exchanges, manage keys, and ensure data integrity.
+    
+- *Intrusion Detection:*  
+  - ***[OSSEC](https://www.ossec.net/):*** An open source intrusion detection system (IDS) that monitors system and network activity to detect and respond to potential threats.
 
 #### 3.6. Orchestration and Updates
+
 - *Container Orchestration:*  
-  - ***[Kubernetes](https://kubernetes.io/)*** (or ***[K3s](https://k3s.io/)*** for lightweight deployments) to manage and deploy DIOS services across nodes in a decentralized manner.
+  - ***[Kubernetes](https://kubernetes.io/):*** (or ***[K3s](https://k3s.io/)*** for lightweight deployments) to manage and deploy DIOS services across nodes in a decentralized manner.
+    
 - *System Updates:*  
-  - ***[OSTree](https://ostreedev.github.io/ostree/) :*** an open source tool for managing bootable, versioned filesystem trees, enabling atomic and reliable system updates.
+  - ***[OSTree](https://ostreedev.github.io/ostree/):*** An open source tool for managing bootable, versioned filesystem trees, enabling atomic and reliable system updates.
+    
 - *Configuration Automation:*  
-  - ***[Ansible](https://www.ansible.com/)*** or ***[SaltStack](https://www.saltstack.com/) :*** these tools facilitate automated configuration management and deployment across the network, ensuring consistency and ease of governance.
+  - ***[Ansible](https://www.ansible.com/)*** or ***[SaltStack](https://www.saltstack.com/):*** Tools to automate configuration management and deployment, ensuring consistency across the network.
 
 #### 3.7. Energy
-- *Energy Optimization :*  
-  - ***[TLP](https://linrunner.de/tlp/) :*** an open source tool for Linux that optimizes power management and extends battery life on desktop and embedded devices.
-- *Resource Monitoring :*  
-  - ***[PowerTOP](https://github.com/fenrus75/powertop) :*** a utility to monitor energy consumption and identify power-hungry processes, aiding in resource allocation and energy efficiency.
+
+- *Energy Optimization:*  
+  - ***[TLP](https://linrunner.de/tlp/):*** An open source Linux tool that optimizes power management and extends battery life on desktops and embedded devices.
+    
+- *Resource Monitoring:*  
+  - ***[PowerTOP](https://github.com/fenrus75/powertop):*** A utility to monitor energy consumption and identify power-hungry processes, aiding in effective resource allocation.
+
 ---
 
 ## **4. Resources**
-- Theory
-   - [wikipedia.org/Wireless_ad_hoc_network](https://en.wikipedia.org/wiki/Wireless_ad_hoc_network)
-- Free software
-   - [wikipedia.org/GNUnet](https://en.wikipedia.org/wiki/GNUnet)
-   - [directory.fsf.org](https://directory.fsf.org)
 
-- Free hardware
-   - [freedombox.org](https://freedombox.org)
-   - [ryf.fsf.org](https://ryf.fsf.org)
-   - [h-node.org](https://h-node.org)
+- **Theory:**  
+  - [Wireless Ad Hoc Network – Wikipedia](https://en.wikipedia.org/wiki/Wireless_ad_hoc_network)
+    
+- **Free Software:**  
+  - [GNUnet – Wikipedia](https://en.wikipedia.org/wiki/GNUnet)  
+  - [FSF Directory](https://directory.fsf.org)
+    
+- **Free Hardware:**  
+  - [FreedomBox](https://freedombox.org)  
+  - [RYF – FSF](https://ryf.fsf.org)  
+  - [H-Node](https://h-node.org)
        
 ---
 
-## **5. How to participate**
-Help improve this first draft README. Once we agree on an elicitation plan, the *"Key Software Modules"* section will be split into several sub-projects.
+## **5. How to Participate**
+
+Help improve this first draft README. Once we agree on an elicitation plan, the *"Key Software Modules"* section will be split into several sub-projects. Your feedback and contributions are essential to evolve DIOS into a robust, AI-driven decentralized operating system.
 
 ---
 
 ## **6. Conclusion**
 
-Before 2023, a project like the [DICS](https://github.com/FJortay/DICS)/DIOS system would have seemed unfeasible for a long time to come. But since then, conversational AI has emerged. It will not only help us design this collective intelligence system but also grant it capabilities that were unimaginable just a few years ago. The challenges to overcome, or circumvent, are certainly numerous and high, but in any case, the fruits of this research will be just as numerous and enriching.
+What once seemed unfeasible—building a comprehensive decentralized infrastructure like the [DICS](https://github.com/FJortay/DICS)/DIOS system—is now within reach. Advances in conversational AI empower us to design and implement collective intelligence systems with capabilities that were unimaginable just a few years ago. While the challenges remain significant, the potential benefits and insights from this research promise to be equally abundant and transformative.

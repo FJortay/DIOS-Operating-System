@@ -1,4 +1,4 @@
-# DIOS  
+## DIOS Operating System
 Design of an Intelligent Operating System for a Wireless Decentralized WAN
 
 - [1. Summary](#1-summary)
@@ -38,7 +38,8 @@ DIOS is envisioned as an innovative operating system coupled with an integrated 
 
 In Section 3, open source solutions are proposed for each component. However, many of these software packages were not originally developed with today’s conversational AI advances in mind. As such, significant parts of DIOS may need to be built from scratch—or integrated with existing tools as a first step.
 
-*This is a "[Building AI course project](https://buildingai.elementsofai.com/)".*
+
+*The DIOS Operating System repository, along with [DICS Collaborative Management](https://github.com/FJortay/DICS-Collaborative-Management) repository, is part of the [DICOS Societal Project](https://github.com/FJortay/DICOS-Societal-Project)".*
 
 ---
 

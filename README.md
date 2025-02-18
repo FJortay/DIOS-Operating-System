@@ -139,7 +139,7 @@ In Section 3, open source solutions are proposed for each component. However, ma
 
 ---
 
-## **4. Resources**
+### **4. Resources**
 
 - **Theory:**  
   - [Wireless Ad Hoc Network – Wikipedia](https://en.wikipedia.org/wiki/Wireless_ad_hoc_network)
@@ -155,12 +155,12 @@ In Section 3, open source solutions are proposed for each component. However, ma
        
 ---
 
-## **5. How to Participate**
+### **5. How to Participate**
 
 Help improve this first draft README. Once we agree on an elicitation plan, the *"Key Software Modules"* section will be split into several sub-projects. Your feedback and contributions are essential to evolve DIOS into a robust, AI-driven decentralized operating system.
 
 ---
 
-## **6. Conclusion**
+### **6. Conclusion**
 
 What once seemed unfeasible—building a comprehensive decentralized infrastructure like the *"[DICS](https://github.com/FJortay/DICS) on DIOS system"*—is now within reach. Advances in conversational AI empower us to design and implement collective intelligence systems with capabilities that were unimaginable just a few years ago. While the challenges remain significant, the potential benefits and insights from this research promise to be equally abundant and transformative.

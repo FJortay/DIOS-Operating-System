@@ -13,7 +13,7 @@ Design of an Intelligent Operating System for a Wireless Decentralized WAN
 
 ### 1. Summary
 
-DIOS is conceived as an innovative operating system paired with an integrated software suite tailored for a wireless, decentralized (P2P) WAN. It serves as the backbone for [DICS](https://github.com/FJortay/DICS-Collective-Management) platform—a smart, decentralized co-management system designed for organizations ranging from local associations to state institutions practicing direct democracy. Each DIOS node represents an individual “citizen node” and bundles both server and client functionalities for:
+DIOS is conceived as an innovative operating system paired with an integrated software suite tailored for a wireless, decentralized (P2P) WAN. It serves as the backbone for [DICS](https://github.com/FJortay/DICS-Collaborative-Management) platform—a smart, decentralized co-management system designed for organizations ranging from local associations to state institutions practicing direct democracy. Each DIOS node represents an individual “citizen node” and bundles both server and client functionalities for:
 
 - *Individual activities:*
   - *Front-end:*
@@ -25,7 +25,7 @@ DIOS is conceived as an innovative operating system paired with an integrated so
 
 - *Collective activities:*
   - *Front-end:*
-    - Running the [DICS](https://github.com/FJortay/DICS-Collective-Management/) co-management system.
+    - Running the [DICS](https://github.com/FJortay/DICS-Collaborative-Management/) co-management system.
   - *Back-end:*
     - Orchestrating a collective AI that distributes data storage and computational tasks across the network.
 
@@ -189,4 +189,4 @@ Help us refine this first draft README. Once we agree on a structured elicitatio
 
 ### **6. Conclusion**
 
-What once seemed unfeasible—building an all-encompassing decentralized infrastructure such as *"[DICS](https://github.com/FJortay/DICS-Collaborative-Management)" on DIOS* (forming the basis of [DISCO](https://github.com/FJortay/DISCO-Collective-Intelligence))—is now within reach. Advances in conversational AI empower us to design and implement collective intelligence systems with unprecedented capabilities. Although significant challenges remain, the potential rewards in innovation, security, and democratic engagement are immense and transformative.
+What once seemed unfeasible—building an all-encompassing decentralized infrastructure such as "[DICS](https://github.com/FJortay/DICS-Collaborative-Management) on DIOS" (forming the basis of [DISCO](https://github.com/FJortay/DISCO-Collective-Intelligence))—is now within reach. Advances in conversational AI empower us to design and implement collective intelligence systems with unprecedented capabilities. Although significant challenges remain, the potential rewards in innovation, security, and democratic engagement are immense and transformative.

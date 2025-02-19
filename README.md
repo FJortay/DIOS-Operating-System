@@ -12,7 +12,7 @@ Design of an Intelligent Operating System for a Wireless Decentralized WAN
 
 ### 1. Summary  
 
-DIOS is envisioned as an innovative operating system coupled with an integrated software suite designed for a wireless, decentralized (P2P) WAN. It serves as the backbone for [DICS](https://github.com/FJortay/DICS)—an intelligent, decentralized co-management platform for organizations ranging from local associations to state institutions that operate under the principles of direct democracy. Each DIOS node represents an individual member—a “citizen node”—and bundles all the necessary server and client software for:
+DIOS is envisioned as an innovative operating system coupled with an integrated software suite designed for a wireless, decentralized (P2P) WAN. It serves as the backbone for [DICS](https://github.com/FJortay/DICS-Collective-Management)—an intelligent, decentralized co-management platform for organizations ranging from local associations to state institutions that operate under the principles of direct democracy. Each DIOS node represents an individual member—a “citizen node”—and bundles all the necessary server and client software for:
 
 - *Individual activities*:
   - *Front-end*:
@@ -24,22 +24,22 @@ DIOS is envisioned as an innovative operating system coupled with an integrated 
 
 - *Collective activities*:
   - *Front-end*:
-    - Running the [DICS](https://github.com/FJortay/DICS/) co-management system.
+    - Running the [DICS](https://github.com/FJortay/DICS-Collective-Management/) co-management system.
   - *Back-end*:
     - Coordinating a collective AI that distributes data storage and computational load across the network.
 
 ***Software and hardware context:***  
-- *Software.* DIOS is built to be ***decentralized*** (both client and server), ***modular*** (to ease technological evolution), and entirely composed of ***free software*** (as defined by [fsf.org](https://fsf.org)). 
+- *Software.* DIOS is built to be ***decentralized*** (modules are both client and server), ***modular*** (to ease technological evolution), and entirely composed of ***free software*** (as defined by [fsf.org](https://fsf.org)). 
 
 - *Hardware.* Each organization member is expected to use two types of [free devices](https://www.gnu.org/philosophy/free-hardware-designs.html): a desktop computer and an IPV card (a yet-to-be-developed smart card-like device with a touchscreen and virtual keyboard, dedicated to identification, payments, and voting). Notably, the system avoids reliance on smartphones (due to concerns over mental health and computer security).
 
->***HI + AI = CI.***  
->Nodes form the network and act as agents of both plasticity (learning) and emergence (through diverse interactions). While humans contribute creativity, ethical judgment, and nuanced decision-making, AI brings speed, pattern recognition, and data processing. The emergent collective intelligence (CI) is the synergistic outcome of this collaboration.
+>***In P2P, OS is network***  
+>In a P2P network, each node's operating system (OS) manages its local functions, and together, these OS instances form the entire network. In physical terms, it is accurate to consider that the OS installed on each node essentially represents the network as a whole.
 
-In Section 3, open source solutions are proposed for each component. However, many of these software packages were not originally developed with today’s conversational AI advances in mind. As such, significant parts of DIOS may need to be built from scratch—or integrated with existing tools as a first step.
+In Sections 3, open source solutions are proposed for each component. Modules should be integrated in a standardized manner to streamline the system's evolvability (i.e., the replacement of existing modules with new ones). Indeed, many of these software packages were not originally developed with today’s conversational AI advances in mind. As such, significant parts of DICS may need to be built from scratch—or integrated with existing tools as a first step.
 
 
-*The DIOS Operating System repository, along with [DICS Collaborative Management](https://github.com/FJortay/DICS-Collaborative-Management) repository, is part of the [DICOS Societal Project](https://github.com/FJortay/DICOS-Societal-Project)".*
+*DIOS Operating System, along with [DICS Collaborative Management](https://github.com/FJortay/DICS-Collaborative-Management), is part of the [DISCO Collective Intelligence](https://github.com/FJortay/DISCO-Collective-Intelligence) project.*
 
 ---
 
@@ -163,4 +163,4 @@ Help improve this first draft README. Once we agree on an elicitation plan, the 
 
 ### **6. Conclusion**
 
-What once seemed unfeasible—building a comprehensive decentralized infrastructure like the *"[DICS](https://github.com/FJortay/DICS) on DIOS system"*—is now within reach. Advances in conversational AI empower us to design and implement collective intelligence systems with capabilities that were unimaginable just a few years ago. While the challenges remain significant, the potential benefits and insights from this research promise to be equally abundant and transformative.
+What once seemed unfeasible—building a comprehensive decentralized infrastructure like *"[DICS](https://github.com/FJortay/DICS-Collaborative-Management) on DIOS"* (composing [DISCO](https://github.com/FJortay/DISCO-Collective-Intelligence))—is now within reach. Advances in conversational AI empower us to design and implement collective intelligence systems with capabilities that were unimaginable just a few years ago. While the challenges remain significant, the potential benefits and insights from this research promise to be equally abundant and transformative.

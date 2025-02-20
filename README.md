@@ -32,7 +32,7 @@ DIOS is conceived as an innovative operating system paired with an integrated so
 ***Software and hardware context:***  
 - *Software.* DIOS is engineered to be ***decentralized*** (each module acts as both client and server), ***modular*** (to facilitate technological evolution), and entirely composed of ***free software*** (as defined by [fsf.org](https://fsf.org)). 
 
-- *Hardware.* Each organization member is expected to use two types of [free devices](https://www.gnu.org/philosophy/free-hardware-designs.html): a desktop computer and an IPV card—a forthcoming smart card-like device featuring a touchscreen and virtual keyboard dedicated to identification, payments, and voting. Notably, the system deliberately avoids the use of smartphones, addressing concerns regarding mental health and cybersecurity.
+- *Hardware.* Each organization member is expected to use two types of [free devices](https://www.gnu.org/philosophy/free-hardware-designs.en.html): a desktop computer and an IPV card—a forthcoming smart card-like device featuring a touchscreen and virtual keyboard dedicated to identification, payments, and voting. Notably, the system deliberately avoids the use of smartphones, addressing concerns regarding mental health and cybersecurity.
 
 >***In P2P, OS is network***  
 >Within a P2P network, each node’s operating system manages local functions; collectively, these OS instances represent the entire network.

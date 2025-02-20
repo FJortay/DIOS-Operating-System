@@ -1,5 +1,4 @@
-
-## DIOS Operating System  
+# DIOS Operating System  
 Design of an Intelligent Operating System for a Wireless Decentralized WAN
 
 - [1. Summary](#1-summary)
@@ -11,7 +10,7 @@ Design of an Intelligent Operating System for a Wireless Decentralized WAN
 
 ---
 
-### 1. Summary
+## 1. Summary
 
 DIOS is conceived as an innovative operating system paired with an integrated software suite tailored for a wireless, decentralized (P2P) WAN. It serves as the backbone for [DICS](https://github.com/FJortay/DICS-Collaborative-Management) platform—a smart, decentralized co-management system designed for organizations ranging from local associations to state institutions practicing direct democracy. Each DIOS node represents an individual “citizen node” and bundles both server and client functionalities for:
 
@@ -43,9 +42,9 @@ In Section 3, open source solutions are proposed for each component. Modules mus
 
 ---
 
-### **2. Operating Principles under AI management**
+## 2. Operating Principles under AI management
 
-#### 2.1. Decentralized, Self-Organizing Architecture
+### 2.1. Decentralized, Self-Organizing Architecture
   
 - ***No Central Authority:***  
   All services—from DNS and authentication to AI processing—are distributed among nodes, eliminating any single point of control.
@@ -53,7 +52,7 @@ In Section 3, open source solutions are proposed for each component. Modules mus
 - ***Auto-Organization and Self-Healing:***  
   The network dynamically incorporates new nodes, redistributes tasks, and autonomously manages failures.
 
-#### 2.2. Collective Intelligence and Load Distribution
+### 2.2. Collective Intelligence and Load Distribution
   
 - ***Distributed AI:***  
   Nodes collaborate through federated learning and related techniques, ensuring scalable data processing and efficient resource utilization.
@@ -61,7 +60,7 @@ In Section 3, open source solutions are proposed for each component. Modules mus
 - ***Data Redundancy:***  
   Information is stored in a distributed manner, bolstering resilience and ensuring continuous operation even if individual nodes fail.
 
-#### 2.3. Adaptation to Wireless WAN Constraints
+### 2.3. Adaptation to Wireless WAN Constraints
   
 - ***Dynamic Connectivity:***  
   The system is designed to handle multi-hop wireless communications, adapting in real time to fluctuating network conditions.
@@ -69,7 +68,7 @@ In Section 3, open source solutions are proposed for each component. Modules mus
 - ***Energy Efficiency:***  
   Optimized resource and power management enables sustained performance on devices with limited energy supplies.
 
-#### 2.4. Security, Identity, and Privacy
+### 2.4. Security, Identity, and Privacy
   
 - ***Robust Authentication:***  
   Each node is assigned a self-sovereign identity, safeguarded through advanced cryptographic protocols.
@@ -77,7 +76,7 @@ In Section 3, open source solutions are proposed for each component. Modules mus
 - ***End-to-End Security:***  
   All communications and transactions—including voting and payments—are encrypted and continuously monitored for potential threats.
 
-#### 2.5. Modularity and Open Source Evolution
+### 2.5. Modularity and Open Source Evolution
   
 - ***Modular Design:***  
   The architecture consists of independent, interoperable modules that can be updated or replaced as technology advances.
@@ -87,9 +86,9 @@ In Section 3, open source solutions are proposed for each component. Modules mus
 
 ---
 
-### **3. Key Software Modules**
+## 3. Key Software Modules
 
-#### 3.1. Wireless Network Management and WAN Connectivity
+### 3.1. Wireless Network Management and WAN Connectivity
 
 - *Proposed Solutions:*  
   - ***[BATMAN-adv](https://www.open-mesh.org/projects/open-mesh/wiki):***  
@@ -99,7 +98,7 @@ In Section 3, open source solutions are proposed for each component. Modules mus
   - ***[OpenWrt](https://openwrt.org/):***  
     A Linux-based router firmware that optimizes wireless connectivity and manages network traffic on dedicated hardware.
 
-#### 3.2. Decentralized DNS and Distributed Storage
+### 3.2. Decentralized DNS and Distributed Storage
 
 - *Proposed Solution:*  
   - ***[IPFS/IPNS](https://ipfs.tech/):***  
@@ -109,7 +108,7 @@ In Section 3, open source solutions are proposed for each component. Modules mus
   - ***[Namecoin](https://www.namecoin.org/):***  
     A blockchain-based solution for managing DNS records in a decentralized framework.
 
-#### 3.3. Collective Intelligence (AI) and Load Distribution
+### 3.3. Collective Intelligence (AI) and Load Distribution
 
 - *Proposed Solution:*  
   - ***[TensorFlow Federated](https://www.tensorflow.org/federated):***  
@@ -119,13 +118,13 @@ In Section 3, open source solutions are proposed for each component. Modules mus
   - ***[PySyft](https://github.com/OpenMined/PySyft):***  
     A library facilitating secure, privacy-preserving decentralized machine learning.
 
-#### 3.4. Identification and Authentication
+### 3.4. Identification and Authentication
 
 - *Proposed Solution:*  
   - ***[FreeIPA](https://www.freeipa.org/) / [OpenLDAP](https://www.openldap.org/):***  
     Open source identity management systems that can be configured for decentralized replication across nodes.
 
-#### 3.5. Security and Cryptography
+### 3.5. Security and Cryptography
 
 - *Secure Communication:*  
   - ***[WireGuard](https://www.wireguard.com/):***  
@@ -139,7 +138,7 @@ In Section 3, open source solutions are proposed for each component. Modules mus
   - ***[OSSEC](https://www.ossec.net/):***  
     An open source intrusion detection system that monitors system and network activity to identify potential threats.
 
-#### 3.6. Orchestration and Updates
+### 3.6. Orchestration and Updates
 
 - *Container Orchestration:*  
   - ***[Kubernetes](https://kubernetes.io/):***  
@@ -153,7 +152,7 @@ In Section 3, open source solutions are proposed for each component. Modules mus
   - ***[Ansible](https://www.ansible.com/)*** or ***[SaltStack](https://www.saltstack.com/):***  
     Automate configuration management and deployment for consistent network-wide settings.
 
-#### 3.7. Energy
+### 3.7. Energy
 
 - *Energy Optimization:*  
   - ***[TLP](https://linrunner.de/tlp/):***  
@@ -165,28 +164,28 @@ In Section 3, open source solutions are proposed for each component. Modules mus
 
 ---
 
-### **4. Resources**
+## 4. Resources
 
-- **Theory:**  
+### Theory:  
   - [Wireless Ad Hoc Network – Wikipedia](https://en.wikipedia.org/wiki/Wireless_ad_hoc_network)
     
-- **Free Software:**  
+### Free Software:  
   - [GNUnet – Wikipedia](https://en.wikipedia.org/wiki/GNUnet)  
   - [FSF Directory](https://directory.fsf.org)
     
-- **Free Hardware:**  
+### Free Hardware: 
   - [FreedomBox](https://freedombox.org)  
   - [RYF – FSF](https://ryf.fsf.org)  
   - [H-Node](https://h-node.org)
        
 ---
 
-### **5. How To Participate**
+## **5. How To Participate**
 
 Help us refine this first draft README. Once we agree on a structured elicitation plan, the *"Key Software Modules"* section will be divided into several sub-projects. Your contributions and feedback are crucial to evolving DIOS into a robust, AI-driven decentralized operating system.
 
 ---
 
-### **6. Conclusion**
+## **6. Conclusion**
 
 What once seemed unfeasible—building an all-encompassing decentralized infrastructure such as "[DICS](https://github.com/FJortay/DICS-Collaborative-Management) on DIOS" (forming the basis of [DISCO](https://github.com/FJortay/DISCO-Collective-Intelligence))—is now within reach. Advances in conversational AI empower us to design and implement collective intelligence systems with unprecedented capabilities. Although significant challenges remain, the potential rewards in innovation, security, and democratic engagement are immense and transformative.

@@ -185,7 +185,7 @@ In Section 3, open source solutions are proposed for each component. Modules mus
 
 1. Improve this README (deadline: t+1Y).
 
-2. Test the functioning of basic front-office applications (website and email) on a P2P LAN (deadline: t+3Y), using existing free software (deadline: t+3Y).
+2. Test the functioning of basic front-office applications (website and email) on a P2P LAN, using existing free software (deadline: t+3Y).
 
 3. Based on the information collected during the previous phase:
    
@@ -195,13 +195,13 @@ In Section 3, open source solutions are proposed for each component. Modules mus
 
 4. Develop the missing back-office applications for the functioning of basic front-office applications on a P2P WAN (deadline: t+6Y).
 
-5. Integrate DICS on DIOS (deadline: t+8Y).
+5. Integrate [DICS Collaborative Management](https://github.com/FJortay/DICS-Collaborative-Management) on DIOS (deadline: t+8Y).
 
 ---
 
 ## 5. How To Participate
 
-Help us refine this first draft README. Once we agree on a structured elicitation plan, the *"Key Software Modules"* section will be divided into several sub-projects. Your contributions and feedback are crucial to evolving DIOS into a robust, AI-driven decentralized operating system.
+We are at phase 1.
 
 ---
 

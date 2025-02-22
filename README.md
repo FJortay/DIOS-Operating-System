@@ -201,7 +201,7 @@ In Section 3, open source solutions are proposed for each component. Modules mus
 
 ## 5. How To Participate
 
-We are at phase 1.
+We are at phase 1. Help improve this README.
 
 ---
 

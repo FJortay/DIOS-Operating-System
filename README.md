@@ -5,8 +5,9 @@ Design of an Intelligent Operating System for a Wireless Decentralized WAN
 - [1. Operating Principles under AI management](#1-operating-principles-under-ai-management)
 - [2. Key Software Modules](#2-key-software-modules)
 - [3. Resources](#3-resources)
-- [4. How To Participate](#4-how-to-participate)
-- [5. Conclusion](#5-conclusion)
+- [4. Project Phases](#4-project-phases)
+- [5. How To Participate](#5-how-to-participate)
+- [6. Conclusion](#6-conclusion)
 
 ---
 
@@ -180,12 +181,30 @@ In Section 3, open source solutions are proposed for each component. Modules mus
        
 ---
 
-## 4. How To Participate
+## 4. Project Phases
+
+1. Improve this README (deadline: t+1Y).
+
+2. Test the functioning of basic front-office applications (website and email) on a P2P LAN (deadline: t+3Y), using existing free software (deadline: t+3Y).
+
+3. Based on the information collected during the previous phase:
+   
+   - Detail missing features;
+     
+   - Define standards for systemic scalability of DIOS modular components (deadline: t+4Y).
+
+4. Develop the missing back-office applications for the functioning of basic front-office applications on a P2P WAN (deadline: t+6Y).
+
+5. Integrate DICS on DIOS (deadline: t+8Y).
+
+---
+
+## 5. How To Participate
 
 Help us refine this first draft README. Once we agree on a structured elicitation plan, the *"Key Software Modules"* section will be divided into several sub-projects. Your contributions and feedback are crucial to evolving DIOS into a robust, AI-driven decentralized operating system.
 
 ---
 
-## 5. Conclusion
+## 6. Conclusion
 
 What once seemed unfeasible—building an all-encompassing decentralized infrastructure such as "[DICS](https://github.com/FJortay/DICS-Collaborative-Management) on DIOS" (forming the basis of [DISCO](https://github.com/FJortay/DISCO-Collective-Intelligence))—is now within reach. Advances in conversational AI empower us to design and implement collective intelligence systems with unprecedented capabilities. Although significant challenges remain, the potential rewards in innovation, security, and democratic engagement are immense and transformative.

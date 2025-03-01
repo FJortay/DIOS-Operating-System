@@ -19,7 +19,6 @@ DIOS is (a project for) an innovative operating system paired with an integrated
   - *Front-end:*
     - Hosting a personal ***website***;
     - Providing ***email*** and videoconferencing services;
-    - Offering an optional ***commercial platform*** for micro-enterprise management—integrating modules such as "Sales", "Accounting", and "Social Secretariat" with public service databases (e.g., taxation, social security).
   - *Back-end:*
     - Delivering decentralized DNS, identification, and authentication services.
 

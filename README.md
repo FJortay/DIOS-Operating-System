@@ -13,7 +13,12 @@ Design of an Intelligent Operating System for a Wireless Decentralized WAN
 
 ## Summary
 
-DIOS is (a project for) an innovative operating system paired with an integrated software suite tailored for a wireless, decentralized (P2P) WAN. It serves as the backbone for [DICS](https://github.com/FJortay/DICS-Collaborating-System) —a smart, decentralized system for collaborative decision making, designed for organizations of all types and sizes. Each DIOS node represents an individual “citizen node” and bundles both server and client functionalities for:
+DIOS is (a project for) an innovative operating system:
+- tailored for a wireless and decentralized (P2P) WAN;
+  
+- serving as the backbone for [DICS](https://github.com/FJortay/DICS-Collaborating-System) —a smart and decentralized system for collaborative decision making, designed for organizations of all types and sizes.
+
+Each DIOS node represents an individual “citizen node” and bundles both server and client functionalities for:
 
 - *Individual activities:*
   - *Front-end:*

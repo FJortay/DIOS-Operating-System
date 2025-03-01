@@ -1,5 +1,5 @@
 # DIOS Operating System  
-***Design of an Intelligent Operating System for a Wireless Decentralized WAN***
+***Design of an Intelligent Operating System for a Wireless Decentralized Network***
 
 - [Summary](#summary)
 - [1. Operating Principles under AI management](#1-operating-principles-under-ai-management)

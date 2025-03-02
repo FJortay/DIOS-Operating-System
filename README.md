@@ -19,9 +19,10 @@ DIOS is (a project for) an innovative operating system:
   
 - serving as the backbone for [DICS](https://github.com/FJortay/DICS-Collaborating-System) —a smart and decentralized system for collaborative decision making, designed for organizations of all types and sizes.
 
-**In P2P Mode, OS is Network** 
+**Virtual Citizen Node** 
 
-Each DIOS node represents an individual “citizen node” and bundles both server and client functionalities.
+Each DIOS node represents an individual “citizen node” and is virtual, meaning it is not tied to a specific terminal.
+
 
 **Software Environment** 
 
@@ -31,7 +32,7 @@ DIOS is engineered to be ***decentralized*** (each module acts as both client an
 
 ---
 
-## 1. Citizen Node
+## 1. Virtual Citizen Node
 
 Each DIOS node represents an individual “citizen node” and bundles both server and client functionalities for:
 
@@ -52,7 +53,7 @@ Each DIOS node represents an individual “citizen node” and bundles both serv
 
 Each organization member is expected to use two types of [free devices](https://www.gnu.org/philosophy/free-hardware-designs.en.html): a desktop computer and an IPV card—a forthcoming smart card-like device featuring a touchscreen and virtual keyboard dedicated to identification, payments, and voting. Notably, the system deliberately avoids the use of smartphones, addressing concerns regarding mental health and cybersecurity.
 
-The "citizen" aspect of the citizen node concept should be virtual, meaning not tied to a specific terminal. This is a complex issue, spanning both DIOS and [DICS](https://github.com/FJortay/DICS-Collaborating-System/).
+The "citizen node" should be virtual, meaning not tied to a specific terminal. This is a complex issue, spanning both DIOS and [DICS](https://github.com/FJortay/DICS-Collaborating-System/).
 
 **Further development**  
 

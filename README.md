@@ -8,7 +8,6 @@
 - [4. Resources](#4-resources)
 - [5. Project Phases](#5-project-phases)
 - [6. How To Participate](#6-how-to-participate)
-- [7. Conclusion](#7-conclusion)
 
 ---
 
@@ -221,8 +220,3 @@ In Section 3, open source solutions are proposed for each component. Modules mus
 
 We are at phase 1. Help improve this README.
 
----
-
-## 7. Conclusion
-
-What once seemed unfeasible—building an all-encompassing decentralized infrastructure such as "[DICS](https://github.com/FJortay/DICS-Collaborating-System) on DIOS" (forming the basis of [DISCO](https://github.com/FJortay/DISCO-Collective-Intelligence))—is now within reach. Advances in conversational AI empower us to design and implement collective intelligence systems with unprecedented capabilities. Although significant challenges remain, the potential rewards in innovation, security, and democratic engagement are immense and transformative.

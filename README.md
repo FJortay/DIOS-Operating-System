@@ -2,7 +2,7 @@
 ***Design of an Intelligent Operating System for a Wireless Decentralized Network***
 
 - [Summary](#summary)
-- [1. Citizen Node](#1-citizen-node)
+- [1. Virtual Citizen Node](#1-virtual-citizen-node)
 - [2. Operating Principles under AI management](#2-operating-principles-under-ai-management)
 - [3. Key Software Modules](#3-key-software-modules)
 - [4. Resources](#4-resources)
@@ -53,7 +53,7 @@ Each DIOS node represents an individual “citizen node” and bundles both serv
 
 Each organization member is expected to use two types of [free devices](https://www.gnu.org/philosophy/free-hardware-designs.en.html): a desktop computer and an IPV card—a forthcoming smart card-like device featuring a touchscreen and virtual keyboard dedicated to identification, payments, and voting. Notably, the system deliberately avoids the use of smartphones, addressing concerns regarding mental health and cybersecurity.
 
-The "citizen node" should be virtual, meaning not tied to a specific terminal. This is a complex issue, spanning both DIOS and [DICS](https://github.com/FJortay/DICS-Collaborating-System/).
+The "citizen node" should be virtual, meaning not tied to a specific terminal (therefore, the IPV card should be universal, i.e. not personal). This is a complex issue, spanning both DIOS and [DICS](https://github.com/FJortay/DICS-Collaborating-System/).
 
 **Further development**  
 

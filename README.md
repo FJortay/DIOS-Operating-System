@@ -2,12 +2,13 @@
 ***Design of an Intelligent Operating System for a Wireless Decentralized Network***
 
 - [Summary](#summary)
-- [1. Operating Principles under AI management](#1-operating-principles-under-ai-management)
-- [2. Key Software Modules](#2-key-software-modules)
-- [3. Resources](#3-resources)
-- [4. Project Phases](#4-project-phases)
-- [5. How To Participate](#5-how-to-participate)
-- [6. Conclusion](#6-conclusion)
+- [1. Citizen Node](#1-citizen-node)
+- [2. Operating Principles under AI management](#2-operating-principles-under-ai-management)
+- [3. Key Software Modules](#3-key-software-modules)
+- [4. Resources](#4-resources)
+- [5. Project Phases](#5-project-phases)
+- [6. How To Participate](#6-how-to-participate)
+- [7. Conclusion](#7-conclusion)
 
 ---
 
@@ -17,6 +18,20 @@ DIOS is (a project for) an innovative operating system:
 - tailored for a wireless and decentralized (P2P) WAN;
   
 - serving as the backbone for [DICS](https://github.com/FJortay/DICS-Collaborating-System) —a smart and decentralized system for collaborative decision making, designed for organizations of all types and sizes.
+
+**In P2P Mode, OS is Network** 
+
+Each DIOS node represents an individual “citizen node” and bundles both server and client functionalities.
+
+**Software Environment** 
+
+DIOS is engineered to be ***decentralized*** (each module acts as both client and server), ***modular*** (to facilitate technological evolution), and entirely composed of ***free software*** (as defined by [fsf.org](https://fsf.org)). 
+
+*DIOS Operating System, together with [DICS Collaborating System](https://github.com/FJortay/DICS-Collaborating-System), is an integral part of the [DISCO Collective Intelligence](https://github.com/FJortay/DISCO-Collective-Intelligence) project.*
+
+---
+
+## 1. Citizen Node
 
 Each DIOS node represents an individual “citizen node” and bundles both server and client functionalities for:
 
@@ -33,23 +48,19 @@ Each DIOS node represents an individual “citizen node” and bundles both serv
   - *Back-end:*
     - Orchestrating a collective AI that distributes data storage and computational tasks across the network.
 
-**Software and hardware environment:**  
-- ***Software.*** DIOS is engineered to be ***decentralized*** (each module acts as both client and server), ***modular*** (to facilitate technological evolution), and entirely composed of ***free software*** (as defined by [fsf.org](https://fsf.org)). 
+**Hardware Environment** 
 
-- ***Hardware.*** Each organization member is expected to use two types of [free devices](https://www.gnu.org/philosophy/free-hardware-designs.en.html): a desktop computer and an IPV card—a forthcoming smart card-like device featuring a touchscreen and virtual keyboard dedicated to identification, payments, and voting. Notably, the system deliberately avoids the use of smartphones, addressing concerns regarding mental health and cybersecurity.
+Each organization member is expected to use two types of [free devices](https://www.gnu.org/philosophy/free-hardware-designs.en.html): a desktop computer and an IPV card—a forthcoming smart card-like device featuring a touchscreen and virtual keyboard dedicated to identification, payments, and voting. Notably, the system deliberately avoids the use of smartphones, addressing concerns regarding mental health and cybersecurity.
 
->***In P2P, OS is network***  
->Within a P2P network, each node’s operating system manages local functions; collectively, these OS instances represent the entire network.
+The "citizen" aspect of the citizen node concept should be virtual, meaning not tied to a specific terminal. This is a complex issue, spanning both DIOS and [DICS](https://github.com/FJortay/DICS-Collaborating-System/).
 
-In Section 3, open source solutions are proposed for each component. Modules must be integrated in a standardized fashion to ensure the system remains adaptable and evolvable. Since many existing packages were not originally conceived with today’s conversational AI in mind, significant portions of DIOS might need to be newly developed or adapted from current tools.
+**Further development**  
 
-*DIOS Operating System, together with [DICS Collaborating System](https://github.com/FJortay/DICS-Collaborating-System), is an integral part of the [DISCO Collective Intelligence](https://github.com/FJortay/DISCO-Collective-Intelligence) project.*
+At individual level: an optional module for ***micro-enterprise management*** integrating "Accounting" and "Social Secretariat" modules with  public service databases for taxation and social security. This would be a major source of big data for a public AI...
 
----
+## 2. Operating Principles under AI management
 
-## 1. Operating Principles under AI management
-
-### 1.1. Decentralized, Self-Organizing Architecture
+### 2.1. Decentralized, Self-Organizing Architecture
   
 - ***No Central Authority:***  
   All services—from DNS and authentication to AI processing—are distributed among nodes, eliminating any single point of control.
@@ -57,7 +68,7 @@ In Section 3, open source solutions are proposed for each component. Modules mus
 - ***Auto-Organization and Self-Healing:***  
   The network dynamically incorporates new nodes, redistributes tasks, and autonomously manages failures.
 
-### 1.2. Collective Intelligence and Load Distribution
+### 2.2. Collective Intelligence and Load Distribution
   
 - ***Distributed AI:***  
   Nodes collaborate through federated learning and related techniques, ensuring scalable data processing and efficient resource utilization.
@@ -65,7 +76,7 @@ In Section 3, open source solutions are proposed for each component. Modules mus
 - ***Data Redundancy:***  
   Information is stored in a distributed manner, bolstering resilience and ensuring continuous operation even if individual nodes fail.
 
-### 1.3. Adaptation to Wireless WAN Constraints
+### 2.3. Adaptation to Wireless WAN Constraints
   
 - ***Dynamic Connectivity:***  
   The system is designed to handle multi-hop wireless communications, adapting in real time to fluctuating network conditions.
@@ -73,7 +84,7 @@ In Section 3, open source solutions are proposed for each component. Modules mus
 - ***Energy Efficiency:***  
   Optimized resource and power management enables sustained performance on devices with limited energy supplies.
 
-### 1.4. Security, Identity, and Privacy
+### 2.4. Security, Identity, and Privacy
   
 - ***Robust Authentication:***  
   Each node is assigned a self-sovereign identity, safeguarded through advanced cryptographic protocols.
@@ -81,7 +92,7 @@ In Section 3, open source solutions are proposed for each component. Modules mus
 - ***End-to-End Security:***  
   All communications and transactions—including voting and payments—are encrypted and continuously monitored for potential threats.
 
-### 1.5. Modularity and Open Source Evolution
+### 2.5. Modularity and Open Source Evolution
   
 - ***Modular Design:***  
   The architecture consists of independent, interoperable modules that can be updated or replaced as technology advances.
@@ -91,9 +102,11 @@ In Section 3, open source solutions are proposed for each component. Modules mus
 
 ---
 
-## 2. Key Software Modules
+## 3. Key Software Modules
 
-### 2.1. Wireless Network Management and WAN Connectivity
+In Section 3, open source solutions are proposed for each component. Modules must be integrated in a standardized fashion to ensure the system remains adaptable and evolvable. Since many existing packages were not originally conceived with today’s conversational AI in mind, significant portions of DIOS might need to be newly developed or adapted from current tools.
+
+### 3.1. Wireless Network Management and WAN Connectivity
 
 - *Proposed Solutions:*  
   - ***[BATMAN-adv](https://www.open-mesh.org/projects/open-mesh/wiki):***  
@@ -103,7 +116,7 @@ In Section 3, open source solutions are proposed for each component. Modules mus
   - ***[OpenWrt](https://openwrt.org/):***  
     A Linux-based router firmware that optimizes wireless connectivity and manages network traffic on dedicated hardware.
 
-### 2.2. Decentralized DNS and Distributed Storage
+### 3.2. Decentralized DNS and Distributed Storage
 
 - *Proposed Solution:*  
   - ***[IPFS/IPNS](https://ipfs.tech/):***  
@@ -113,7 +126,7 @@ In Section 3, open source solutions are proposed for each component. Modules mus
   - ***[Namecoin](https://www.namecoin.org/):***  
     A blockchain-based solution for managing DNS records in a decentralized framework.
 
-### 2.3. Collective Intelligence (AI) and Load Distribution
+### 3.3. Collective Intelligence (AI) and Load Distribution
 
 - *Proposed Solution:*  
   - ***[TensorFlow Federated](https://www.tensorflow.org/federated):***  
@@ -123,13 +136,13 @@ In Section 3, open source solutions are proposed for each component. Modules mus
   - ***[PySyft](https://github.com/OpenMined/PySyft):***  
     A library facilitating secure, privacy-preserving decentralized machine learning.
 
-### 2.4. Identification and Authentication
+### 3.4. Identification and Authentication
 
 - *Proposed Solution:*  
   - ***[FreeIPA](https://www.freeipa.org/) / [OpenLDAP](https://www.openldap.org/):***  
     Open source identity management systems that can be configured for decentralized replication across nodes.
 
-### 2.5. Security and Cryptography
+### 3.5. Security and Cryptography
 
 - *Secure Communication:*  
   - ***[WireGuard](https://www.wireguard.com/):***  
@@ -143,7 +156,7 @@ In Section 3, open source solutions are proposed for each component. Modules mus
   - ***[OSSEC](https://www.ossec.net/):***  
     An open source intrusion detection system that monitors system and network activity to identify potential threats.
 
-### 2.6. Orchestration and Updates
+### 3.6. Orchestration and Updates
 
 - *Container Orchestration:*  
   - ***[Kubernetes](https://kubernetes.io/):***  
@@ -157,7 +170,7 @@ In Section 3, open source solutions are proposed for each component. Modules mus
   - ***[Ansible](https://www.ansible.com/)*** or ***[SaltStack](https://www.saltstack.com/):***  
     Automate configuration management and deployment for consistent network-wide settings.
 
-### 2.7. Energy
+### 3.7. Energy
 
 - *Energy Optimization:*  
   - ***[TLP](https://linrunner.de/tlp/):***  
@@ -169,7 +182,7 @@ In Section 3, open source solutions are proposed for each component. Modules mus
 
 ---
 
-## 3. Resources
+## 4. Resources
 
 ### Theory:  
   - [Wireless Ad Hoc Network – Wikipedia](https://en.wikipedia.org/wiki/Wireless_ad_hoc_network)
@@ -185,7 +198,7 @@ In Section 3, open source solutions are proposed for each component. Modules mus
        
 ---
 
-## 4. Project Phases
+## 5. Project Phases
 
 1. Improve this README (deadline: t+1Y).
 
@@ -203,12 +216,12 @@ In Section 3, open source solutions are proposed for each component. Modules mus
 
 ---
 
-## 5. How To Participate
+## 6. How To Participate
 
 We are at phase 1. Help improve this README.
 
 ---
 
-## 6. Conclusion
+## 7. Conclusion
 
 What once seemed unfeasible—building an all-encompassing decentralized infrastructure such as "[DICS](https://github.com/FJortay/DICS-Collaborating-System) on DIOS" (forming the basis of [DISCO](https://github.com/FJortay/DISCO-Collective-Intelligence))—is now within reach. Advances in conversational AI empower us to design and implement collective intelligence systems with unprecedented capabilities. Although significant challenges remain, the potential rewards in innovation, security, and democratic engagement are immense and transformative.
